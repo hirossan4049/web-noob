@@ -14,14 +14,16 @@ p {
 
 a {
     margin-top: 30px;
-    padding: 10px 40px;
+    padding: 10px;
     border: 1px solid black;
-    border-radius: 6px;
+    /*border-radius: 6px;*/
+    border-radius: 100%;
     background: black;
     color: white;
     text-decoration: none;
     font-size: 20px;
     transition: all 0.2s;
+    text-align: center;
 }
 /*a {*/
 /*    background: blue;*/
@@ -36,12 +38,16 @@ a {
     height: 400px;
 }
 
-.left-box img {
+/*img {*/
+/*    background: blue;*/
+/*}*/
+
+.preview-left-img {
     padding: 10px 30px 5px 5px;
     float: left;
 }
 
-.right-box img {
+.preview-right-img {
     padding: 10px 30px 5px 5px;
     float: right;
 }
