@@ -26,7 +26,7 @@ body {
 nav {
     width: 450px;
     overflow: hidden;
-    margin:  0 0 0 auto;
+    margin: 0 0 0 auto;
 }
 
 nav li {
@@ -46,7 +46,7 @@ nav a {
     text-align: center;
 }
 
-nav a:hover{
+nav a:hover {
     border-bottom: 3px solid gray;
 }
 
@@ -101,11 +101,11 @@ p {
 /*    border-color: black;*/
 /*}*/
 
-.content {
-    width: 700px;
-    margin: 0 auto;
-    overflow: hidden;
-}
+/*.content {*/
+/*    width: 700px;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden;*/
+/*}*/
 
 .top-title {
     padding-left: 20px;
@@ -117,4 +117,34 @@ p {
 
 .sub-title {
     padding-left: 16px;
+}
+
+#sidebar{
+    float: left;
+    width: 280px;
+    margin: 32px 12px;
+    background: #efefef;
+    border-radius: 12px;
+    /*padding: 16px;*/
+}
+#sidebar img{
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#sidebar p{
+    font-size: 16px;
+    text-align: center;
+}
+
+#main {
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background: #efefef;*/
+    float: left;
 }
