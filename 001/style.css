@@ -1,0 +1,45 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  background: #fff url(background.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #999;
+  font-size: 56px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+p{
+  padding-top: 280px;
+  text-align: center;
+  color: #333;
+}
+
+
+a {
+  text-align: center;
+  display: block;
+  margin: 16px auto;
+  width: 180px;
+  color: white;
+  border: 2px dashed white;
+  text-decoration: none;
+  padding: 8px 0;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+a:hover{
+  color: black;
+  background: white;
+}
