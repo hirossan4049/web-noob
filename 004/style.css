@@ -127,6 +127,9 @@ p {
     background: #efefef;
     border-radius: 12px;
     /*padding: 16px;*/
+    transition: 0.1s;
+    text-decoration: none;
+    color: #171717;
 }
 .sidebar-item img {
     /*max-height: 280px;*/
@@ -141,7 +144,7 @@ p {
 }
 
 #sidebar img{
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border-radius: 12px;
 }
 #sidebar h3{
@@ -154,7 +157,10 @@ p {
     text-align: center;
 }
 .sidebar-item:hover {
-    width: 230px;
+    /*width: 310px;*/
+    /*margin:0 auto;*/
+    transform: scale(0.99);
+    overflow: hidden;
 }
 
 #main {
