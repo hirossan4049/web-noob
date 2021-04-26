@@ -143,8 +143,14 @@ p {
 
 #main {
     width: 700px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     overflow: hidden;
     /*background: #efefef;*/
     float: left;
+    /*display: inline-block;*/
+    /*position: relative;*/
+}
+
+.wrapper{
+    margin: 0 auto;
 }
