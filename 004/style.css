@@ -131,6 +131,14 @@ p {
     text-decoration: none;
     color: #171717;
 }
+
+.sidebar-item p{
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .sidebar-item img {
     /*max-height: 280px;*/
     /*max-width: 10000000000px;*/
@@ -143,19 +151,22 @@ p {
     width: 340px;
 }
 
-#sidebar img{
+#sidebar img {
     margin-bottom: 10px;
     border-radius: 12px;
 }
-#sidebar h3{
+
+#sidebar h3 {
     font-size: 20px;
     /*margin-bottom: 0px;*/
     text-align: center;
 }
-#sidebar p{
+
+#sidebar p {
     font-size: 16px;
     text-align: center;
 }
+
 .sidebar-item:hover {
     /*width: 310px;*/
     /*margin:0 auto;*/
@@ -173,8 +184,20 @@ p {
     /*position: relative;*/
 }
 
-.wrapper{
+.wrapper {
     margin: 0 auto;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
+}
+
+@media all and (max-width: 380px) {
+    main {
+        width: 100vw;
+        padding: 0;
+    }
+    .wrapper {
+        margin: 0 auto;
+        /*display: flex;*/
+        justify-content: center;
+    }
 }
