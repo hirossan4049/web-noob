@@ -1,18 +1,25 @@
+$(function () {
+    $('.text-area').html('<p>Hello world</p>');
+    $('.text-area p').css('color', 'yellow');
 
 
 // FIXME:
-$(function (){
-    $('.text-area').html('<p>Hello world</p>');
-    $('.text-area p').css('color', 'red');
-});
+    $('.text-area').click(function () {
+        console.log('tapped');
+        $(this).css('color', 'green');
+    });
 
-$('.text-area').click(function() {
-    console.log('tapped');
-    $(this).css('color', 'green');
-});
+    $('p').hover(
+        function () {
+            console.log("text elia hover")
+            $(this).css('color', 'red');
+        }
+    );
 
-$('.text-area').hover(
-    function () {
-        console.log("text elia hover")
-    }
-);
+
+    $("button").click(function () {
+        $('.text-area p').css('color', 'green');
+    });
+
+// きた!!
+});
